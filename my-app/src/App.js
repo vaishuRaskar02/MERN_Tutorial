@@ -1,5 +1,16 @@
-const name = "Anuja";
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import LandingPage from "./screens/LandingPage/LandingPage";
 
-const App = () => <h1>Hello Vaishu, welcome to React!</h1>;
+const App = () => (
+  <>
+    <Header />
+    <main className="App">
+      <LandingPage />
+    </main>
+    <Footer />
+  </>
+);
 
 export default App;
